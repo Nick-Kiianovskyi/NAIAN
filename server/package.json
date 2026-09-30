@@ -1,0 +1,21 @@
+{
+  "name": "naian-server",
+  "version": "1.0.0",
+  "description": "NAIAN Regional News Intelligence Platform — Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db:test": "node src/utils/testConnection.js",
+    "db:migrate": "node src/utils/migrate.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
